@@ -1,14 +1,15 @@
 //  header change background on scroll
- $(function() {
-	$(window).on("scroll", function() {
-			if($(window).scrollTop() > 50) {
-					$(".header").addClass("active");
-			} else {
-					//remove the background property so it comes transparent again (defined in your css)
-				 $(".header").removeClass("active");
-			}
-	});
-});
+function changeBg(){
+  var navbar = document.getElementById('header');
+  var scrollValue = window.scrollY
+  if(scrollValue < 900){
+    navbar.classList.remove('bgColor');
+  } else{
+    navbar.classList.add('bgColor');
+  }
+}
+
+window.addEventListener('scroll', changeBg)
 
 
 
