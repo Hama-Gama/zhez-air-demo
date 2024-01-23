@@ -309,7 +309,7 @@ p {
 	display: flex !important;
 }
 .header {
-	/* background-color: rgba(0, 0, 0, 0.9); */
+	background-color: rgba(0, 0, 0, 0.6);
 	position: fixed;
 	width: 100%;
 	z-index: 50;
