@@ -515,10 +515,6 @@ p {
 	to {opacity: 1;}
 }
 
-.active { 
-	background-color: rgba(0, 0, 0, 0.6);
-}
-
 .text__description{
 	color: #000;
 	font-size: 18px;
