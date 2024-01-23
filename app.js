@@ -1,18 +1,3 @@
-//  header change background on scroll
-function changeBg(){
-  var navbar = document.getElementById('header');
-  var scrollValue = window.scrollY
-  if(scrollValue < 900){
-    navbar.classList.remove('bgColor');
-  } else{
-    navbar.classList.add('bgColor');
-  }
-}
-
-window.addEventListener('scroll', changeBg)
-
-
-
 // background ibg class
 function ibg(){
    let ibg=document.querySelectorAll(".ibg"); 
